@@ -120,7 +120,14 @@ console.log(greeting);
 
 
 
-//===== Your code goes here =================
+const birthYear2 = 1947
+const thisYear2 = 1965
+const firstName2 = "Carlos"
+const lastName2 = "Stevenson"
+
+const greetings2 = "Hello, my name is " + firstName2 + " " + lastName2 + " and i am " + (thisYear2 - birthYear2 ) + " years old"
+
+console.log(greetings2)
 
 
 /*

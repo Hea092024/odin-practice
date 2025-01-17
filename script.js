@@ -1,22 +1,22 @@
-function troubleshooting() {
-  const a = 1;
-  const b = 1;
+// function troubleshooting() {
+//   const a = 1;
+//   const b = 1;
 
-  let result;
+//   let result;
 
   // Edit between these lines
   // =================================
-  result = a + b;
+//   result = a + b;
 
   // =================================
 
-  return result;
-}
+//   return result;
+// }
 
 // Do not change this
-module.exports = troubleshooting;
+// module.exports = troubleshooting;
 
-console.log(troubleshooting());
+// console.log(troubleshooting());
 
 
 /**
@@ -29,9 +29,11 @@ console.log(troubleshooting());
 number = Number(prompt("enter a number"));
 
 function numberChecker() {
-	if(number === 6) {
+	if(number >=10) {
 		return true;
 	} else {
 		return false;
 	}
 }
+
+console.log(numberChecker())

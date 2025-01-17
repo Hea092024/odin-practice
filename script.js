@@ -6,7 +6,7 @@ function troubleshooting() {
 
   // Edit between these lines
   // =================================
-  result = "a" + "b";
+  result = a + b;
 
   // =================================
 
@@ -15,3 +15,5 @@ function troubleshooting() {
 
 // Do not change this
 module.exports = troubleshooting;
+
+console.log(troubleshooting());

@@ -70,46 +70,55 @@
 
 */
 
-// code to be deleted
-const birthYear = 1947;
-const thisYear = 1965;
-const firstName = "Carlos";
-const lastName = "Stevenson";
+
+// const birthYear = 1947;
+// const thisYear = 1965;
+// const firstName = "Carlos";
+// const lastName = "Stevenson";
+
+// const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+
+// console.log(greeting);
+//Output will be "Hello! My name is Carlos Stevenson and I am 18 years old."
+
+
+
+//   ===== Step 2: =====
+//   Once you understand the code snippet above, delete it. Then, using the following instructions, recreate the snippet on your own under "Your code goes here".
+	
+//   ---------------------------------------------------------------
+	
+//   1. Create 4 variables: firstName, lastName, thisYear, and birthYear
+
+//   2. Create a 5th variable, greeting, that is constructed from the previous 4
+//   (it should contain a greeting with the person's full name and their age)
+
+//   3. Print greeting with console.log
+
+//   4. Press 'Run' to ensure your code works
+
+	const birthYear = 1983;
+const thisYear = 2025;
+const firstName = "Hector";
+const lastName = "Acevedo";
 
 const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
 
 console.log(greeting);
-//Output will be "Hello! My name is Carlos Stevenson and I am 18 years old."
 
-/*
+//   ---------------------------------------------------------------
 
-  ===== Step 2: =====
-  Once you understand the code snippet above, delete it. Then, using the following instructions, recreate the snippet on your own under "Your code goes here".
+//   ===== NOTE =====
+//   In order to make the tests pass you will need to use these exact values. The wording also needs to be an exact match. If the tests fail, check spacing, capitalization, and punctuation:
 	
-  ---------------------------------------------------------------
-	
-  1. Create 4 variables: firstName, lastName, thisYear, and birthYear
+//   birth year = 1947
+//   this year = 1965
+//   first name = Carlos
+//   last name = Stevenson
 
-  2. Create a 5th variable, greeting, that is constructed from the previous 4
-  (it should contain a greeting with the person's full name and their age)
+//   The greeting should say: "Hello! My name is Carlos Stevenson and I am 18 years old."
 
-  3. Print greeting with console.log
 
-  4. Press 'Run' to ensure your code works
-	
-  ---------------------------------------------------------------
-
-  ===== NOTE =====
-  In order to make the tests pass you will need to use these exact values. The wording also needs to be an exact match. If the tests fail, check spacing, capitalization, and punctuation:
-	
-  birth year = 1947
-  this year = 1965
-  first name = Carlos
-  last name = Stevenson
-
-  The greeting should say: "Hello! My name is Carlos Stevenson and I am 18 years old."
-
-*/
 
 //===== Your code goes here =================
 

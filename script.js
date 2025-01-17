@@ -26,14 +26,30 @@
  * Change this code so it returns `true` when the number is greater than or equal to 10, and false if it is less than 10
  */
 
-number = Number(prompt("enter a number"));
+// number = Number(prompt("enter a number"));
 
-function numberChecker() {
-	if(number >=10) {
-		return true;
-	} else {
-		return false;
-	}
-}
+// function numberChecker() {
+// 	if(number >=10) {
+// 		return true;
+// 	} else {
+// 		return false;
+// 	}
+// }
 
-console.log(numberChecker())
+// console.log(numberChecker())
+
+
+/**
+ * Lets do some math!
+ * Some rules first:
+ *   - Replace the strings to the right of the = with the math expression they describe.
+ *   - Do not manually enter the answers to the equations. For example, `const a = 9` would be incorrect as 9 is the answer to the equation you're being asked to write out
+ */
+
+const a = "one plus eight"
+const b = "22 times three"
+const c = "the *remainder* of 5/4"
+const d = "the variable 'a' minus 17"
+const e = "the sum of the previous four variables"
+
+module.exports = {a, b, c, d, e}

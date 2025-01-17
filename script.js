@@ -138,14 +138,29 @@ console.log(greeting);
 
   6. Press 'Run' to ensure your code still works (output should be unchanged)
 
+
+
   ---------------------------------------------------------------
 
-  ===== Testing your code =====
+  
   - Do NOT edit this section until told to do so. 
 
   - Make sure one and only one of these test steps are commented out at a time
 
 */
+
+const birthYear = 1983;
+const thisYear = 2025;
+const firstName = "Hector";
+const lastName = "Acevedo";
+
+const fullName = `${firstName} ${lastName}`;
+const age = thisYear - birthYear;
+
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
+
+console.log(greeting);
+
 
 // Test Step 2: 
 
@@ -158,16 +173,15 @@ module.exports = {
   lastName
 }
 
-
 // Test Step 3: (Don't forget to comment out lines under Test Step 2)
 
-// module.exports = {
-// 	testGroup: "b",
-// 	greeting,
-// 	birthYear,
-// 	thisYear,
-// 	firstName,
-// 	lastName,
-// 	fullName,
-// 	age
-// }
+module.exports = {
+  testGroup: "b",
+  greeting,
+  birthYear,
+  thisYear,
+  firstName,
+  lastName,
+  fullName,
+  age
+}

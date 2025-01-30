@@ -211,11 +211,3 @@ console.log(myNumber);
 // the random() function generates a random number between
 // 0 and up to but not including 1, and returns that number
 
-
-function myFunction() {
-  alert("hello");
-}
-
-myFunction();
-// calls the function once
-
